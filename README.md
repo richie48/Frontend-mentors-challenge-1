@@ -6,14 +6,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,7 +19,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solution/FireShot Capture 001.png)
+<img src="solution/FireShot Capture 001.png"
+     alt="Challenge solution"
+     style="float: left; margin-right: 10px;" />
 
 
 ### Built with
