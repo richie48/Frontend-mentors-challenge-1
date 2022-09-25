@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ --cyan: hsl(179, 62%, 43%);
+ --bright-yellow: hsl(71, 73%, 54%);
+
+ /* Neutral */
+ --light-gray: hsl(204, 43%, 93%);
+ --grayish-blue: hsl(218, 22%, 67%);
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: "karla", "sans-serif";
+    font-size: 16px;
+    background-color: var(--light-gray);
+    padding: 1.25rem;
+}
+
+.btn{
+    background-color: var(--bright-yellow);
+    color:#fff;
+    font-family: inherit;
+    font-size:1rem;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.4rem;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    width:100%;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+p,li{
+    line-height: 1.5;
+}
+
+p.green{
+    color: var(--bright-yellow);
+    font-weight: bold;
+}
+
+.container >article:first-child{
+    padding: 2rem;
+}
+
+.container >article:first-child h1{
+    color:var(--cyan);
+    margin-bottom: 1rem;
+} 
+
+.container >article:first-child p{
+    margin-bottom: 0.625rem;
+} 
+
+.container >article:first-child p:last-child{
+    color: var(--grayish-blue)
+} 
+
+.container section{
+    display: flex;
+    flex-direction: column;
+}
+
+.container section article{
+    padding: 2rem;
+    color:#fff;
+}
+
+.container section article:first-child{
+    background-color: var(--cyan);
+}
+
+.container section article:first-child h2{
+    margin-bottom: 1rem;
+} 
+
+.container section article:first-child h3{
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+} 
+
+.container section article:first-child p{
+    margin: 1rem 0;
+} 
+
+.container section article:first-child h3 span{
+    font-weight: 700;
+    font-size:2rem;
+    margin-right: 0.3rem;
+} 
+
+
+.container section article:nth-child(2){
+    background-color: hsl(179, 61%, 47%);
+}
+
+.container section article:last-child h2{
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+@media(min-width: 768px){
+    .container{
+        width: 700px;
+        margin:auto;
+    }
+    .container >article:first-child h1{
+        font-size:2rem;
+    } 
+    
+    .container section{
+        flex-direction: row;
+    }
+
+    .container section article:first-child{
+        flex:1;
+        border-bottom-left-radius: 0.5rem;
+    } 
+    .container section article:last-child{
+        flex:1;
+        border-bottom-right-radius: 0.5rem;
+    } 
+
+}
