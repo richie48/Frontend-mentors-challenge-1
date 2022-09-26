@@ -118,6 +118,13 @@ p.green{
 }
 
 @media(min-width: 768px){
+
+    body{
+        max-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .container{
         width: 700px;
         margin:auto;
